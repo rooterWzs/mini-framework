@@ -1,0 +1,22 @@
+{
+    "name": "wangzhishuang/test",
+    "description": "giao-giao",
+    "authors": [
+        {
+            "name": "wangzhishuang",
+            "email": "wangzhishuang@davdian.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Wzs\\Main\\": "vendor/wzs-framework/main/src/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
